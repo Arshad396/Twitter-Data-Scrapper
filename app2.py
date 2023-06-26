@@ -6,7 +6,7 @@ import streamlit as st
 
 
 #Storing the scraped data in MongoDB
-client = pymongo.MongoClient("mongodb+srv://ArshadAnsari:1234@cluster0.zeamclt.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("")
     
 # select database and collection
 db = client.Twitter_data
