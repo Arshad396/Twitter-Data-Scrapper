@@ -1,10 +1,7 @@
-Description
-This application helps us to scrap the data from twitter for the specific keyword or hashtag entered with given time period and number of tweets needs to scraped. After that, uploading the scraped data in MongoDB and downloading saved documents into JSON and CSV formats.
-
-Built through
-Language – Python, 
-Libraries used – snscrape, pandas, pymongo
-NoSQL DB - MongoDB
-GUI – Streamlit
+Description:
+1. Developed a Python script to scrape Twitter data using snscrape based on user-defined keywords, dates, and tweet limits.
+2. Implemented functionality to store the scraped data in MongoDB collections using pymongo.
+3. Created a user-friendly interface using streamlit allowing users to input search parameters and trigger the scraping process.
+4. Enabled download options for the scraped data in CSV and JSON formats through the Streamlit interface.
 
 
